@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'fern';
+    src: url('https://github.com/justfont/Elffont/releases/download/v1.0/elffont-fern.otf') format('opentype');
+}
+    
+@font-face {
+    font-family: 'rock';
+    src: url('https://github.com/justfont/Elffont/releases/download/v1.0/elffont-rock.otf') format('opentype');
+}
+
+[class="fern"] {
+    font-family: 'fern';
+}
+
+[class="rock"] {
+    font-family: 'rock';
+}
+
+p {
+    font-size: 16px;
+    font-family: 'fern';
+}
